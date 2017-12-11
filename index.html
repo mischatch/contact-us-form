@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js" charset="utf-8"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
   </head>
   <body>
     <section id="contact">
@@ -21,6 +23,9 @@
 								<input type="text" name="captcha" class="captcha" maxlength="4" size="4" placeholder="Enter captcha code" tabindex=3 />
 								<span>Message</span>
 								<textarea class="message" placeholder="Enter your message" tabindex=4></textarea>
+                
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+
 								<input type="submit" name="submit" value="Send e-mail" class="submit" tabindex=5>
 							</form>
 						</div>
