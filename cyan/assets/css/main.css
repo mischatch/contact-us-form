@@ -386,7 +386,7 @@
 		width: 100%;
 	}
 
-		input[type="text"]:invalid,
+		/*input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
 		input[type="tel"]:invalid,
@@ -395,7 +395,7 @@
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
-		}
+		}*/
 
 		input[type="text"]:focus,
 		input[type="password"]:focus,
