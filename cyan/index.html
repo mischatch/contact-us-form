@@ -116,11 +116,12 @@
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="5"></textarea>
+										<textarea name="message" id="message" class="message" rows="5"></textarea>
 									</div>
 									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
+										<li><input type="submit" class="button-submit" onsubmit="sendMessage" name="" value="send message"></li>
 									</ul>
+									<input type="hidden" class="captcha" name="" value="">
 								</form>
 							</div>
 						</div>
